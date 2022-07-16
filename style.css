@@ -6,11 +6,12 @@
 
 body {
     min-height: 100vh;
-    background: #efeff2;
+    background: #D9F8C4;
     display: flex;
     justify-content: center;
     align-items: center ;
 }
+
 
 .calculator{
     width: 300px;
@@ -55,8 +56,8 @@ button {
 }
 
 .btn-yellow{
-    color: #fff;
-    background: rgb(86, 190, 86);
+    color: #000;
+    background: #F6C6EA;
 }
 
 .btn-grey{
@@ -64,11 +65,12 @@ button {
 }
 
 .btn-equal{
-    background: rgb(244, 124, 18);
-    color: #fff;
+    background: #F6C6EA;
+    color: #000;
 }
 
 .btn-clear{
-    background: red;
+    background: rgb(231, 74, 74);
     flex: auto;
+    color: #fff;
 }
